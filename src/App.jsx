@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Header from './Header/Header';
-import SearchQuery from './searchQuery/searchQuery';
+import SearchQuery from './SearchQuery/SearchQuery.jsx';
 
 
 

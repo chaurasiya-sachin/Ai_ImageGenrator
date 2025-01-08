@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Header from './Header/Header';
-import SearchQuery from './SearchQuery/SearchQuery.jsx';
+import QuerySearch from './QuerySearch/QuerySearch.jsx';
 
 
 
@@ -9,7 +9,7 @@ const App = () => {
   return (
     <div className="min-h-screen bg-gray-100">
       <Header />
-      <SearchQuery />
+      <QuerySearch />
     </div>
   );
 };

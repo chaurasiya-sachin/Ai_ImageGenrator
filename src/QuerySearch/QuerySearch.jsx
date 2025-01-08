@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 
-const SearchQuery = () => {
+const QuerySearch = () => {
   const [query, setQuery] = useState("");
   const [image, setImage] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
@@ -71,4 +71,4 @@ const SearchQuery = () => {
   );
 };
 
-export default SearchQuery;
+export default QuerySearch;
